@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --turquoise: #40e0d0;
+  --darkcyn: #008b8b;
+  --aquamarin: #7fffd4;
+  --blue: #000bff;
+  --sky: #33bbc5;
+  --grensky: #8dc4e9;
+  --bluesky: #acfadf;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.card {
+  display: flex;
+  background: #ffffff21;
+  color: antiquewhite;
+  border-radius: 10px;
+  padding: 16px 50px 20px 50px;
+  max-width: 400px;
+}
+
+.card p {
+  font-size: 12px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.nt-16 {
+  margin-top: 16px;
+  font-size: 12px;
+}
+.textcenter {
+  text-align: center;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--turquoise);
+}
+.card .btn_action {
+  padding: 5px;
+  padding-right: 5rem;
+  text-decoration: none;
+  color: aliceblue;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid var(--grensky);
+  transition: all 0s ease 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.card .btn_action span {
+  margin-left: 5px;
+}
+.card .btn_action:hover {
+  background: var(--grensky);
+  opacity: 90%;
+}
+
+.contenbg {
+  margin-top: 10px;
+  background: #ffffff21;
+  padding: 10px;
+  border-radius: 12px;
+}
